@@ -1,0 +1,43 @@
+html body{
+    margin:0;
+    padding:0;
+}
+.login{
+    position:absolute;
+    top:10%;
+    left:35%;
+    transform: translate(-50% -50%)
+}
+.inputs{
+    background:#fff;
+    width:340px;
+    height:30px;
+    font-size: 1rem;
+    outline:none;
+    margin-top:6px;
+}
+.names{
+    margin-top:1rem;
+    font-weight: bold;
+}
+.relative{
+    position:relative;
+    left:10%;
+    bottom:1.2rem;
+}
+.check{
+    margin-top:8px;
+}
+.account{
+    background-color: #24a0ed;
+    width:9rem;
+    padding:7px 7px 7px 7px;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.account:hover{
+    background-color:blue
+
+}

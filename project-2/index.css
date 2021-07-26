@@ -1,0 +1,133 @@
+html, body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    overflow-x: hidden;
+}
+.background{
+background: linear-gradient(to top, rgba(80, 74, 18, 0.6) 10%, transparent),
+    url("hero.jpeg") left 10% bottom 70%/cover no-repeat border-box,
+    #ff1b68;
+  width: 100vw;
+  height: 55vh;
+  margin-top: 2.75rem;
+  margin-bottom:5rem;
+  position: relative;
+}
+.backdrop{
+    background-color: rgba(80, 74, 18, 0.6);
+    width:100vw;
+    height:100vh;
+    z-index:3;
+    position:fixed;
+    display:none;
+}
+.modal{
+    display: flex;
+    justify-content: center;
+    position:fixed;
+    z-index:4;
+    left:3rem;
+    bottom:8rem;
+    display:none;
+}
+.modal_brand{
+    background-color:#FFBF00;
+    border-radius: 20px;
+    padding:5rem;
+    width:50%;
+    height:50%;
+}
+.modal_brand li{
+    display: inline-block;
+    margin-right:19px;
+}
+.yes{
+    background:green;
+    text-decoration: none;
+    padding:5px 12px 5px 12px;
+    border-radius:5px;
+    color:white;
+}
+.no{
+background:red;
+text-decoration: none;
+padding:5px 12px 5px 12px;
+border-radius:5px;
+color:white;
+}
+.nav-bar{
+    background-color:black;
+    width:100vw;
+    height:13vh;
+    position: fixed;
+    z-index: 1;
+    display:flex;
+    top:0;
+}
+.nav-bar__2{
+    display:inline-block;
+    margin:12px;
+    list-style:none;
+}
+.nav-bar__2:hover{
+    border-bottom:5px solid #FFBF00;
+    cursor:pointer
+}
+.nav-bar__2 a{
+    color:#FFBF00;
+    text-decoration: none;
+}
+.collections{
+    margin-top: 3rem;
+     float:left;
+     display: block;
+     text-align:center;
+     margin-left:6rem
+}
+.image{
+    width:13rem;
+    border:2px solid black;
+    margin:1px;
+    border-radius:3px;
+}
+.array{
+    height:8.8rem;
+}
+.project{
+    margin-top: 25rem;
+    clear: both;
+    background-color:rgb(71, 67, 67);
+    color:white;
+    padding:1rem;
+    padding-top:10px
+}
+.click{
+    padding:10px 20px 10px 20px;
+    border-radius: 10px;
+    color:white;
+    background-color:#FFBF00; 
+    margin-top: 10px;
+    border:none;
+    margin-bottom: 1rem;
+}
+.foot{
+    background:black;
+    color:white;
+}
+.footer{
+    display:inline-block;
+    margin:2rem;
+}
+.footer h3{
+    color:#FFBF00;
+}
+@media(min-width:40rem){
+    .modal{
+        left:40%;
+        bottom:7.5rem;
+    }
+        .collections{
+            margin-left:9.5rem;
+        }
+}
